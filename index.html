@@ -1,258 +1,357 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Hello, world!</title>
-  </head>
-  <body>  
-      <header>
-          
-      
+</head>
+
+<body>
+    <header>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="hero">
+                        <div class="left">
+                            <h1 class="hero-txt">
+                                Programming <br>
+                                <span> Just Got Fun</span>
+                            </h1>
+                            <p>
+                                Need a smart Developer? Hire extremely hardworking,
+                                quick learners and ready to contribute. We trained them months after months to build the
+                                growth and learning mindset in them.
+                            </p>
+                            <a href="#">Explore More</a>
+                        </div>
+                        <div class="right">
+                            <img src="images/banner-phone.png" class="small-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero">
+                        <div class="left">
+                            <h1>
+                                Startup: Form your cost effective
+                                software development
+                                team for your team
+                            </h1>
+                            <p>
+                                Come and enjoy the most effective web dev learning process. We provide unlimited coding
+                                support,
+                                daily
+                                concept clear sessions, real-world projects, job placement service, and many more. And
+                                66% of our
+                                successful students get hired internationally
+                            </p>
+                            <a href="#">Explore More</a>
+                        </div>
+                        <div class="right">
+                            <img src="images/startup.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero">
+                        <div class="left">
+                            <h1>
+                                Employer: Find the perfect match for your team
+                            </h1>
+                            <p>
+                                Need a smart Developer? Hire extremely hardworking,
+                                quick learners and ready to contribute. We trained them months after months to build the
+                                growth and learning mindset in them.
+                            </p>
+                            <a href="#">Explore More</a>
+                        </div>
+                        <div class="right">
+                            <img src="images/employer.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <section class="info">
+        <div class="section-container" data-aos="fade-left">
+            <div class="info-col">
+                <img src="images/1m.svg" alt="">
+                <h2>Users</h2>
+            </div>
+            <div class="info-col">
+                <img src="images/ratings.svg" alt="">
+                <h2>Rating</h2>
+            </div>
+            <div class="info-col">
+                <img src="images/code.svg" alt="">
+                <h2>Code.org win</h2>
+            </div>
+            <div class="info-col">
+                <img src="images/review.svg" alt="">
+                <h2>Review</h2>
+            </div>
+        </div>
+    </section>
+    <section class="app">
+        <div class="content" data-aos="fade-right">
+            <h1>Best android app to <br>
+                <span>learn programming</span>
+            </h1>
+            <div class="img-container">
+                <img src="images/google-play.svg" alt="">
+                <img src="images/istore.svg">
+            </div>
+        </div>
+    </section>
+    <section class="grid">
+        <div class="container">
+            <!-- div 1 -->
+            <div class="grid-item big" data-aos="fade-up-right">
+                <img src="images/1m-banner.svg" alt="">
+                <h2>After learning each programming concept, you will add an element to</h2>
+                <img src="images/dddd.png" class="bottom" alt="">
+            </div>
+            <!-- div2 -->
+            <div class="grid-item " data-aos="fade-down-left">
+                <h1>Rewards Badges</h1>
+                <p>Our courses are gamified. you can earn superpowers, Surprise points and gifts for your enjoyable
+                    learning.</p>
+                <img src="images/badges.png" alt="">
+            </div>
+            <!-- div 3 -->
+            <div class="grid-item " style="background-color: #dc3545;" data-aos="fade-left">
+                <div class="top d-flex">
+                    <img src="images/coder.png" class="img-fluid mr-4" alt="">
+                    <div>
+                        <h1>Offline Playground</h1>
+                        <p>You can get instant support from thousands of learners in the Forum</p>
+                    </div>
+                </div>
+                <img src="images/phone-2.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="courses">
+        <h1 data-aos="zoom-in"><span>Complete guideline</span> from absolute beginners to getting hired.</h1>
+        <div class="btn-container" data-aos="zoom-out">
+            <a href="#" class="explore">Explore Course <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <a href="#" class="explore"> <span style="vertical-align: middle;">Hired List</span> <i
+                    class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="container pt-5">
+            <div class="course-row" data-aos="fade-up">
+                <div class="col-left">
+                    <img src="images/course-thumbnails.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-right">
+                    <h2>Complete Web Development Course
+                        with Jhankar Mahbub</h2>
+                    <p>Enjoy the most effective and enjoyable journey with interactive lessons and guided support to
+                        become a web developer.</p>
+                    <!-- student info div  -->
+                    <div class="student-info d-flex justify-content-between">
+                        <div class="enroll d-flex">
+                            <img src="images/users.png" class="student-img" alt="">
+                            <div>
+                                <h3>10K+</h3>
+                                <p>Enrolled</p>
+                            </div>
+                        </div>
+                        <div class="enroll d-flex ">
+                            <img src="images/ratings.svg" class="student-img" alt="">
+                            <div>
+                                <h3>1k</h3>
+                                <p>Got Hired</p>
+                            </div>
+                        </div>
+                        <div class="enroll d-flex ">
+                            <img src="images/calendar.png" class="student-img" alt="">
+                            <div>
+                                <h3>5</h3>
+                                <p>Mounth Required</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- course info div  -->
+                    <div class="course-info">
+                        <div class="d-flex">
+                            <img class="info-img" src="images/info1.png" alt="">
+                            <p>800+ Videos</p>
+                        </div>
+                        <div class="d-flex">
+                            <img class="info-img" src="images/info2.png" alt="">
+                            <p>700+ Quizzes</p>
+                        </div>
+                        <div class="d-flex">
+                            <img class="info-img" src="images/info3.png" alt="">
+                            <p>12 Assignments</p>
+                        </div>
+                        <div class="d-flex">
+                            <img class="info-img" src="images/offline.png" alt="">
+                            <p>Offline Download</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="course-project">
+        <div class="container d-flex justify-content-between">
+            <div class="half" style="background-color: #007bff;" data-aos="fade-right">
+                <div class="img-cont d-flex">
+                    <img src="images/live.svg" class="mr-3" alt="">
+                    <img src="images/3x.svg" alt="">
+                </div>
+                <h2>Live support sessions three times in a day to solve <br> your coding related issues.</h2>
+            </div>
+            <div class="half" data-aos="fade-left"
+                style="background: linear-gradient(148.48deg, #ffcc3e -11.85%, #f79c41 81%);">
+                <h2 class="text-dark">Build 11 professional projects while learning.
+                </h2>
+                <p class="text-dark">Build real-world projects while learning and get international job-placement
+                    service.
+                </p>
+                <img src="images/assignment-5.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
 
 
-   <div id="demo" class="carousel slide" data-ride="carousel">
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
+    <section class="another mb-5">
+        <h1><span>টেলেন্টেড মেধাবী </span> ক্যান্ডিডেডদের খুঁজুন</h1>
+        <div class="btn-container">
+            <a href="#" class="explore">সফল ছাত্ররা <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <!-- <a href="#" class="explore"> <span style="vertical-align: middle;">Hired List</span> <i
+                    class="fa fa-angle-right" aria-hidden="true"></i></a> -->
+        </div>
+        <div class="container mt-5 mb-5">
+            <div class="grid-container">
+                <div class="d-flex" data-aos="fade-right">
+                    <div class="grid-left">
+                        <img src="images/guides.png" alt="">
+                    </div>
+                    <div class="grid-right">
+                        <h2> প্রার্থী গাইড </h2>
+                        <p>আমরা জীবনবৃত্তান্ত এবং আপনার অনন্য চাহিদার ভিত্তিতে প্রার্থীদের বাছাই এবং প্রাক-মূল্যায়ন
+                            করি।</p>
+                    </div>
+                </div>
+                <div class="d-flex full-grid flex-column" data-aos="fade-up-left">
+                    <div class="grid-left">
+                        <img src="images/developer.png" alt="">
+                    </div>
+                    <div class="grid-right">
+                        <h2> ফিউচারিস্টিক ডেভেলপার </h2>
+                        <p>এনার্জেটিক ডেভেলপারদের ভাড়া করুন যারা চ্যালেঞ্জ গ্রহণকারী এবং দ্রুত শিক্ষানবিস।</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="grid-left">
+                        <img src="images/productive.png" alt="">
+                    </div>
+                    <div class="grid-right ">
+                        <h2> উৎপাদনশীল দল</h2>
+                        <p>আপনার নির্দিষ্ট প্রয়োজনীয়তার জন্য সঠিক ফিট সহ শুধুমাত্র আপনার জন্য তৈরি উচ্চ
+                            পারফরম্যান্সকারী দলগুলি তৈরি করুন।</p>
+                    </div>
+                </div>
 
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="hero">
-              <div class="left">
-                 <h1 class="hero-txt">
-                  Programming <br>
-                  <span> Just Got Fun</span>
-                </h1>
-                <p>
-                  Need a smart Developer? Hire extremely hardworking, 
-                  quick learners and ready to contribute. We trained them months after months to build the growth and learning mindset in them.
-                </p> 
-                <a href="#">Explore More</a>
-              </div> 
-              <div class="right"> 
-                  
-                  <img src="images/banner-phone.png" class="small-img" alt="">
+            </div>
+            <h1 class="display-4 my-5">চাকরিতে সফলতা</h1>
+        </div>
+    </section>
 
-              </div>
-          </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/logo.png" class="img-fluid" alt="">
+                    <br>
+                    <br>
+
+                    <p class="font-weight-bold mt-1"><i class="fa fa-map-marker mr-3"></i>লেভেল-৪, ৩৪, আউয়াল সেন্টার,
+                        বনানী,
+                        ঢাকা
+                    </p>
+
+                    <p class=" mt-1"><i class="fa fa-envelope mr-3"></i>
+                        সাপোর্ট : support@programming-hero.com
+                    </p>
+
+                    <p class="font-weight-bold mt-1"><i class="fa fa-phone mr-3"></i>অফিসিয়াল: 01308-543768 (উপলভ্য:
+                        সকাল ১০ টা থেকে সন্ধ্যা ৭টা
+                    </p>
+
+
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li><a href="#">হোম</a></li>
+                        <li><a href="#">আমাদের সম্পর্কে</a></li>
+                        <li><a href="#">সফলতা পেজ</a></li>
+                        <li><a href="#">শর্তাবলী</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="ml-2">Follow Us</h3>
+                    <div class="d-flex justify-content-center mt-5 social">
+                        <a class="mr-5" href="#"><i class="fa fa-instagram"></i></a>
+                        <a class="mr-5" href="#"><i class="fa fa-linkedin"></i></a>
+                        <a class="mr-5" href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row my-5">
+                <div class="col-12">
+                    <p class="text" style="text-align: center;">Copyright © 2022
+                        Programming-hero.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
     </div>
-    <div class="carousel-item">
-      <div class="hero">
-              <div class="left">
-                 <h1>
-                  
-                  Startup: Form your cost effective
-                  software development
-                  team for your team
-                
-                </h1>
-                <p>
-                 
-                  Come and enjoy the most effective web dev learning process. We provide unlimited coding support,
-                  daily
-                  concept clear sessions, real-world projects, job placement service, and many more. And 66% of our
-                  successful students get hired internationally
-                
-                </p> 
-                <a href="#">Explore More</a>
-              </div> 
-              <div class="right"> 
-                  <img src="images/startup.svg" alt="">
-
-              </div>
-          </div>
-    </div>
-    <div class="carousel-item">
-      <div class="hero">
-              <div class="left">
-                 <h1>
-                  Employer: Find the perfect match for your team
-                </h1>
-                <p>
-                  Need a smart Developer? Hire extremely hardworking, 
-                  quick learners and ready to contribute. We trained them months after months to build the growth and learning mindset in them.
-                </p> 
-                <a href="#">Explore More</a>
-              </div> 
-              <div class="right"> 
-                  <img src="images/employer.svg" alt="">
-
-              </div>
-          </div>
-    </div>
-  </div> 
-  </header> 
-
-  <section class="info">
-      <div class="section-container">
-          <div class="info-col">
-              <img src="images/1m.svg" alt="">
-              <h2>Users</h2>
-          </div>
-          <div class="info-col">
-              <img src="images/ratings.svg" alt="">
-              <h2>Users</h2>
-          </div>
-          <div class="info-col">
-              <img src="images/code.svg" alt="">
-              <h2>Code.org win</h2>
-          </div>
-          <div class="info-col">
-              <img src="images/review.svg" alt="">
-              <h2>Review</h2>
-          </div>
-      </div>
-  </section> 
-  <section class="app">
-      <div class="content">
-          <h1>Best android app to <br>
-              <span>learn programming</span>
-          </h1> 
-          <div class="img-container">
-              <img src="images/google-play.svg" alt="">
-              <img src="images/istore.svg">
-          </div>
-      </div>
-  </section> 
-  <section class="grid">
-    <div class="container"> 
-      <!-- div 1 -->
-      <div class="grid-item big">
-        <img src="images/1m-banner.svg" alt="">
-      <h2>After learning each programming concept, you will add an element to</h2>
-      <img src="images/dddd.png" class="bottom" alt="">
-      </div> 
-      <!-- div2 -->
-      <div class="grid-item ">
-        <h1>Rewards Badges</h1>
-        <p>Our courses are gamified. you can earn superpowers, Surprise points and gifts for your enjoyable learning.</p>
-        <img src="images/badges.png" alt="">
-      </div>
-      <!-- div 3 -->
-      <div class="grid-item " style="background-color: #dc3545;">
-        <div class="top d-flex">
-          <img src="images/coder.png" class="img-fluid mr-4" alt=""> 
-          <div>
-            <h1>Offline Playground</h1>
-            <p>You can get instant support from thousands of learners in the Forum</p> 
-          </div> 
-
-        </div> 
-            <img src="images/phone-2.png" class="img-fluid" alt="">
-
-      </div>
-    </div>
-  </section>
-   <section class="courses">
-     <h1><span>Complete guideline</span> from absolute beginners to getting hired.</h1> 
-     <div class="btn-container">
-       <a href="#" class="explore">Explore Course <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-       <a href="#" class="explore"> <span style="vertical-align: middle;">Hired List</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-     </div> 
-     <div class="container pt-5">
-       <div class="course-row">
-         <div class="col-left">
-           <img src="images/course-thumbnails.png" class="img-fluid" alt="">
-         </div> 
-         <div class="col-right">
-           <h2>Complete Web Development Course
-                 with Jhankar Mahbub</h2> 
-                 <p>Enjoy the most effective and enjoyable journey with interactive lessons and guided support to become a web developer.</p>
-                 <!-- student info div  -->
-                 <div class="student-info d-flex justify-content-between">
-                   <div class="enroll d-flex">
-                     <img src="images/users.png" class="student-img" alt="">
-                     <div>
-                       <h3>10K+</h3>
-                       <p>Enrolled</p>
-                     </div>
-                   </div>
-                   <div class="enroll d-flex ">
-                     <img src="images/ratings.svg" class="student-img" alt="">
-                     <div>
-                       <h3>1k</h3>
-                       <p>Got Hired</p>
-                     </div>
-                   </div>
-                   <div class="enroll d-flex ">
-                     <img src="images/calendar.png" class="student-img" alt="">
-                     <div>
-                       <h3>5</h3>
-                       <p>Mounth Required</p>
-                     </div>
-                   </div>
-                 </div> 
-                 <!-- course info div  --> 
-                 <div class="course-info">
-                   <div class="d-flex">
-                     <img class="info-img" src="images/info1.png" alt=""> 
-                     <p>800+ Videos</p>
-                   </div>
-                   <div class="d-flex">
-                     <img class="info-img" src="images/info2.png" alt=""> 
-                     <p>700+ Quizzes</p>
-                   </div>
-                   <div class="d-flex">
-                     <img class="info-img" src="images/info3.png" alt=""> 
-                     <p>12 Assignments</p>
-                   </div>
-                   <div class="d-flex">
-                     <img class="info-img" src="images/offline.png" alt=""> 
-                     <p>Offline Download</p>
-                   </div>
-                 </div>
-         </div>
-       </div>
-     </div>
-   </section> 
-   <section class="course-project">
-    <div class="container d-flex justify-content-between">
-        <div class="half" style="background-color: #007bff;">
-       <div class="img-cont d-flex">
-         <img src="images/live.svg" class="mr-3" alt="">
-         <img src="images/3x.svg" alt="">
-       </div> 
-       <h2>Live support sessions three times in a day to solve <br> your coding related issues.</h2>
-     </div> 
-     <div class="half" style="background: linear-gradient(148.48deg, #ffcc3e -11.85%, #f79c41 81%);">
-      <h2 class="text-dark">Build 11 professional projects while learning.
-</h2> 
-<p class="text-dark">Build real-world projects while learning and get international job-placement service.
-
-</p> 
-<img src="images/assignment-5.png" class="img-fluid" alt="">
-     </div>
-    </div>
-   </section>
-  <!-- Left and right controls -->
-  <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a> -->
-
-</div>
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 420, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1500, // values from 0 to 3000, with step 50ms
+
+        });
+    </script>
+</body>
+
 </html>

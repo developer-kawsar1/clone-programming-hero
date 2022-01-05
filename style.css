@@ -129,14 +129,16 @@ header a {
 .courses {
   margin-bottom: 100px;
 }
-.courses h1 {
+.courses h1,
+.another h1 {
   font-size: 72px;
   line-height: 72px;
   text-align: center;
   font-weight: 700;
   padding: 20px;
 }
-.courses h1 span {
+.courses h1 span,
+.another h1 span {
   color: #fc535a;
 }
 .btn-container {
@@ -225,4 +227,45 @@ header a {
 
 .course-project {
   margin: 100px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-rows: auto auto;
+}
+.grid-container div {
+  background-color: #22174b;
+  padding: 20px;
+  border-radius: 10px;
+}
+.full-grid {
+  grid-area: 1 / 2 / 3 / 3;
+}
+
+/* footer */
+footer {
+}
+footer ul {
+  margin-top: 10px;
+}
+footer ul li {
+  list-style-type: none;
+  color: #ffff;
+  padding: 10px;
+}
+footer ul li a {
+  color: #fff;
+}
+footer ul li a:hover {
+  color: #eee;
+  text-decoration: none;
+}
+
+.social i {
+  color: #fff;
+}
+
+.text {
+  text-align: center;
 }
